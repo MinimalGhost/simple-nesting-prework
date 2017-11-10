@@ -15,9 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-	programmer_hash.delete(:alan_kay)
-	programmer_hash.delete(:dennis_ritchie)
-	return programmer_hash
+	return programmer_hash[:known_for][:languages]
 
 end
 
